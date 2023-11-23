@@ -77,7 +77,7 @@ This library provides a custom option to combain UICollectionViewControllers to 
     open var header: _LBCollectionsCombinerHeaderView?
     
     /*
-     * Example 
+     * Type Casting Example 
      * */
     internal var header: HeaderView? {
         return combinerView.header as? ${ YOUT HEADER TYPE }
@@ -89,7 +89,7 @@ This library provides a custom option to combain UICollectionViewControllers to 
     open var refreshControl: UIRefreshControl?
     
     /*
-     * Example 
+     * Set Example 
      * */
     combinerView.refreshControl = .refreshControl { CREATE YOUR Refresh Control VIEW }
 ```
@@ -102,4 +102,9 @@ This library provides a custom option to combain UICollectionViewControllers to 
      * Change The Combiner View Current Page To Selected Index
      * */
     open func setCurrentIndex(_ index: Int)
+    
+    /*
+     * Set Example 
+     * */
+    combinerView.setCurrentIndex(${ SOME INDEX })
 ```
