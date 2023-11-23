@@ -146,3 +146,41 @@ This library provides a custom option to combain UICollectionViewControllers to 
 <img src="https://raw.githubusercontent.com/lioz12131415/LBCollectionsCombinerView/main/Images/collection_view_controller_objc.png" width="210" /> 
 <img src="https://raw.githubusercontent.com/lioz12131415/LBCollectionsCombinerView/main/Images/collection_view_controller_page.png" width="210" /> 
 </p>
+
+<br>
+
+# ARC Design #
+
+```swift
++----------------------+
+| Header Inspectable's |
++----------------------+
+| minusScroll          |
++----------------------+
+| headerHeight         |
++----------------------+
+| headerNibName        |
++----------------------+
+    |
+    |
++-----------------+          +----------------------------+
+|   | Collections | <-+----- | Collections Combiner View  |
+|   | Combiner    |          | Parent Controller Sub View |
+|   v View        |          +----------------------------+
+|  +-----------+  |
+|  |           |  |
+|  |   Header  |  |
+|  |           |  |
+|  +-----------+  |
+|  +-----------+  | +-----------+  +-----------+          +---------------------------------+
+|  |           |  | |           |  |           | <-+----- | Collection View Controller Page |
+|  |           |  | |           |  |           |          +---------------------------------+
+|  |           |  | |           |  |           |
+|  |     A     |  | |     B     |  |     C     |
+|  |    Page   |  | |    Page   |  |    Page   |
+|  |           |  | |           |  |           |
+|  |           |  | |           |  |           |
+|  +-----------+  | +-----------+  +-----------+
++-----------------+
+
+```
