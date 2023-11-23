@@ -17,7 +17,7 @@ This library provides a custom option to combain UICollectionViewControllers to 
 
 <p float="center">
 <img src="https://raw.githubusercontent.com/lioz12131415/LBCollectionsCombinerView/main/Gifs/screen_snapshot.gif" width="210" /> 
-<img src="https://raw.githubusercontent.com/lioz12131415/LBCollectionsCombinerView/main/Images/screen_snapshot.PNG" width="210" />
+<img src="https://raw.githubusercontent.com/lioz12131415/LBCollectionsCombinerView/main/Images/screen_snapshot.jpg" width="210" />
 </p>
 
 
