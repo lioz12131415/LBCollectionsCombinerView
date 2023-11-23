@@ -120,8 +120,8 @@ This library provides a custom option to combain UICollectionViewControllers to 
 
 <p float="center">
 <img src="https://raw.githubusercontent.com/lioz12131415/LBCollectionsCombinerView/main/Images/collections_combiner_view_subview.png" width="210" /> 
-<img src="https://raw.githubusercontent.com/lioz12131415/LBCollectionsCombinerView/main/Images/collections_combiner_view_custom_class.png" width="210" /> 
 <img src="https://raw.githubusercontent.com/lioz12131415/LBCollectionsCombinerView/main/Images/collections_combiner_view_inspectables.png" width="210" /> 
+<img src="https://raw.githubusercontent.com/lioz12131415/LBCollectionsCombinerView/main/Images/collections_combiner_view_custom_class.png" width="210" /> 
 <img src="https://raw.githubusercontent.com/lioz12131415/LBCollectionsCombinerView/main/Images/collections_combiner_view_reference_outlet.png" width="210" /> 
 <img src="https://raw.githubusercontent.com/lioz12131415/LBCollectionsCombinerView/main/Images/collections_combiner_view_code.png" width="210" /> 
 </p>
