@@ -31,7 +31,7 @@ This library provides a custom option to combain UICollectionViewControllers to 
 
 
 
-## Delegate - LBCollectionsCombinerView
+## Delegate - LBCollectionsCombinerViewDelegate
 ### The Combiner View Delegate Methods.
 
 ```swift 
@@ -49,6 +49,23 @@ This library provides a custom option to combain UICollectionViewControllers to 
 }
 ```
 
+## DataSource - LBCollectionsCombinerViewDataSource
+### The Combiner View Data Source Methods.
+
+```swift 
+@objc public protocol LBCollectionsCombinerViewDataSource {
+
+    /*
+     * The Combiner View Number Of Pages
+     * */
+    func numberOfPages(_ combinerView: LBCollectionsCombinerView) -> Int
+    
+    /*
+     * The Combiner View Page For Item At Index Path
+     * */
+    func combinerView(_ combinerView: LBCollectionsCombinerView, pageForItemAt indexPath: IndexPath) -> LBCombinerCollectionViewController?
+}
+```
 
 ## Public Variables - LBCollectionsCombinerView
 ### The Combiner View Public Variables.
@@ -67,9 +84,9 @@ This library provides a custom option to combain UICollectionViewControllers to 
     }
     
     /*
-     * The Combiner View Refresh Control
+     * The Combiner View Refresh Control ${ GET & SET VARIBLE }
      * */
-    open var refreshControl: UIRefreshControl? -> { GET & SET }
+    open var refreshControl: UIRefreshControl?
     
     /*
      * Example 
