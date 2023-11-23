@@ -112,6 +112,20 @@ This library provides a custom option to combain UICollectionViewControllers to 
 
 ## Implementation ##
 
+### Collections Combiner View ###
+
+- Collections Combiner View UI - The Collections Combiner View UI Design Most Be Storyboard Controller Sub View.
+- Collections Combiner View Code - The Collections Combiner View Can Be Use as Reference Outlet To Parent View Controller.
+- Collections Combiner View Inspectables - The Collections Combiner View UI Design Come With Inspectables Properties (minusScroll, headerHeight, headerNibName, isScrollEnable, adjustmentBehavior).
+
+<p float="center">
+<img src="https://raw.githubusercontent.com/lioz12131415/LBCollectionsCombinerView/main/Images/collections_combiner_view_subview.png" width="210" /> 
+<img src="https://raw.githubusercontent.com/lioz12131415/LBCollectionsCombinerView/main/Images/collections_combiner_view_custom_class.png" width="210" /> 
+<img src="https://raw.githubusercontent.com/lioz12131415/LBCollectionsCombinerView/main/Images/collections_combiner_view_inspectables.png" width="210" /> 
+<img src="https://raw.githubusercontent.com/lioz12131415/LBCollectionsCombinerView/main/Images/collections_combiner_view_reference_outlet.png" width="210" /> 
+<img src="https://raw.githubusercontent.com/lioz12131415/LBCollectionsCombinerView/main/Images/collections_combiner_view_code.png" width="210" /> 
+</p>
+
 ### Header ###
 
 - Header UI - The Header UI Design Most Be In Nib File 
