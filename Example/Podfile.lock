@@ -1,5 +1,5 @@
 PODS:
-  - LBCollectionsCombinerView (0.0.4)
+  - LBCollectionsCombinerView (0.0.5)
 
 DEPENDENCIES:
   - LBCollectionsCombinerView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LBCollectionsCombinerView: be7ff0ed5da7a34602e4d74fc99f9b80e3439313
+  LBCollectionsCombinerView: 12d0f15d3c84dfaacbad56c136376b0caad5348b
 
 PODFILE CHECKSUM: f9d6626ffc1011ac563d5ecfbc16491eb9787014
 

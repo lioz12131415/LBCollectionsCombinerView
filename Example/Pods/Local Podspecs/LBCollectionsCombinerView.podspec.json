@@ -1,10 +1,10 @@
 {
   "name": "LBCollectionsCombinerView",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "summary": "LBCollectionsCombinerView: Lioz Balki Animate Framework",
   "description": "The Lioz Balki SDK for iOS Collections Combiner View framework provides:\n*",
   "homepage": "https://github.com/lioz12131415/LBCollectionsCombinerView.git",
-  "readme": "https://github.com/lioz12131415/LBCollectionsCombinerView/blob/main/README.md",
+  "readme": "https://raw.githubusercontent.com/lioz12131415/LBCollectionsCombinerView/main/README.md",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/lioz12131415/LBCollectionsCombinerView.git",
-    "tag": "0.0.4"
+    "tag": "0.0.5"
   },
   "resource_bundles": {
     "LBCollectionsCombinerView": [
