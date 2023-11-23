@@ -123,3 +123,12 @@ This library provides a custom option to combain UICollectionViewControllers to 
 <img src="https://raw.githubusercontent.com/lioz12131415/LBCollectionsCombinerView/main/Images/header_view.png" width="210" /> 
 </p>
 
+### Collection View Controller Page ###
+- Collection View Controller Page UI - The StoryBoard Controller Of The Collection Page UI Design Most Be `CollectionViewController`
+- Collection View Controller Page Class - The Collection View Controller Page Class Most Be Of Type `LBCombinerCollectionViewController`
+
+<p float="center">
+<img src="https://raw.githubusercontent.com/lioz12131415/LBCollectionsCombinerView/main/Images/collection_view_controller.png" width="210" /> 
+<img src="https://raw.githubusercontent.com/lioz12131415/LBCollectionsCombinerView/main/Images/collection_view_controller_objc.png" width="210" /> 
+<img src="https://raw.githubusercontent.com/lioz12131415/LBCollectionsCombinerView/main/Images/collection_view_controller_page.png" width="210" /> 
+</p>
