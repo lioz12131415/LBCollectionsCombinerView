@@ -80,7 +80,7 @@ This library provides a custom option to combain UICollectionViewControllers to 
      * Type Casting Example 
      * */
     internal var header: HeaderView? {
-        return combinerView.header as? ${ YOUT HEADER TYPE }
+        return combinerView.header as? ${ YOUR HEADER TYPE }
     }
     
     /*
@@ -106,5 +106,5 @@ This library provides a custom option to combain UICollectionViewControllers to 
     /*
      * Set Example 
      * */
-    combinerView.setCurrentIndex(index)
+    combinerView.setCurrentIndex(${ YOUR SELECTED INDEX })
 ```
