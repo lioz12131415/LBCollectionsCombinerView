@@ -9,4 +9,8 @@ import UIKit
 
 class VideoCell: UICollectionViewCell {
     
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        /* * * */
+    }
 }

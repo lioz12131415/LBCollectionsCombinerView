@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-LBCollectionsCombinerViewExample/Pods-LBCollectionsCombinerViewExample-frameworks.sh
+${BUILT_PRODUCTS_DIR}/LBCollectionsCombinerView/LBCollectionsCombinerView.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/LBCollectionsCombinerView/_LBCollectionsCombinerViewXCFramework.framework/_LBCollectionsCombinerViewXCFramework

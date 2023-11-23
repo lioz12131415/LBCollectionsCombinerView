@@ -9,4 +9,8 @@ import UIKit
 
 class ImageCell: UICollectionViewCell {
     
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        /* * * * * */
+    }
 }

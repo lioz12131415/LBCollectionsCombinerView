@@ -9,4 +9,8 @@ import UIKit
 
 class TagCell: UICollectionViewCell {
     
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        /*  */
+    }
 }

@@ -1,0 +1,16 @@
+PODS:
+  - LBCollectionsCombinerView (0.0.1)
+
+DEPENDENCIES:
+  - LBCollectionsCombinerView (from `../`)
+
+EXTERNAL SOURCES:
+  LBCollectionsCombinerView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LBCollectionsCombinerView: d00c686207bf6b47a5a55ddba95f8e082e57d6ed
+
+PODFILE CHECKSUM: f9d6626ffc1011ac563d5ecfbc16491eb9787014
+
+COCOAPODS: 1.13.0

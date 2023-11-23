@@ -1,0 +1,6 @@
+framework module LBCollectionsCombinerView {
+  umbrella header "LBCollectionsCombinerView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,2 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBCollectionsCombinerView.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/_LBCollectionsCombinerViewXCFramework.framework

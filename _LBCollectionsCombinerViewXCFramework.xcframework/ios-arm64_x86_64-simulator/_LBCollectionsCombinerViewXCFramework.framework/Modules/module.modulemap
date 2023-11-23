@@ -1,0 +1,4 @@
+framework module _LBCollectionsCombinerViewXCFramework {
+  header "_LBCollectionsCombinerViewXCFramework-Swift.h"
+  requires objc
+}

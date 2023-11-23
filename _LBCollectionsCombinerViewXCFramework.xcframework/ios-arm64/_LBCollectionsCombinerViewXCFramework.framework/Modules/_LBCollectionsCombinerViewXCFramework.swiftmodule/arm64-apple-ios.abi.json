@@ -1,0 +1,3458 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "_LBCollectionsCombinerViewXCFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "_LBCollectionsCombinerViewXCFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "_LBCollectionsCombinerHeaderExtensionView",
+        "printedName": "_LBCollectionsCombinerHeaderExtensionView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "awakeFromNib",
+            "printedName": "awakeFromNib()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerHeaderExtensionView(im)awakeFromNib",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_ab15HeaderExtensionC0C12awakeFromNibyyF",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "overriding": true,
+            "objc_name": "awakeFromNib",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "nibView",
+            "printedName": "nibView(nibName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:37_LBCollectionsCombinerViewXCFramework01_ab15HeaderExtensionC0C03nibC00G4NameSo6UIViewCSgSS_tFZ",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_ab15HeaderExtensionC0C03nibC00G4NameSo6UIViewCSgSS_tFZ",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_LBCollectionsCombinerHeaderExtensionView",
+                "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerHeaderExtensionView",
+                "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerHeaderExtensionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerHeaderExtensionView(im)initWithFrame:",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_ab15HeaderExtensionC0C5frameACSo6CGRectV_tcfc",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerHeaderExtensionView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_LBCollectionsCombinerHeaderExtensionView",
+                    "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerHeaderExtensionView",
+                    "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerHeaderExtensionView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerHeaderExtensionView(im)initWithCoder:",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_ab15HeaderExtensionC0C5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerHeaderExtensionView",
+        "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_ab15HeaderExtensionC0C",
+        "moduleName": "_LBCollectionsCombinerViewXCFramework",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "_LBCollectionsCombinerViewXCFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "_LBCollectionsCombinerView",
+        "printedName": "_LBCollectionsCombinerView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "minusScroll",
+            "printedName": "minusScroll",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerView(py)minusScroll",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C11minusScroll12CoreGraphics7CGFloatVvp",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "IBInspectable",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerView(im)minusScroll",
+                "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C11minusScroll12CoreGraphics7CGFloatVvg",
+                "moduleName": "_LBCollectionsCombinerViewXCFramework",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerView(im)setMinusScroll:",
+                "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C11minusScroll12CoreGraphics7CGFloatVvs",
+                "moduleName": "_LBCollectionsCombinerViewXCFramework",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:37_LBCollectionsCombinerViewXCFramework01_abC0C11minusScroll14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C11minusScroll12CoreGraphics7CGFloatVvM",
+                "moduleName": "_LBCollectionsCombinerViewXCFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headerHeight",
+            "printedName": "headerHeight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerView(py)headerHeight",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C12headerHeight12CoreGraphics7CGFloatVvp",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "IBInspectable",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerView(im)headerHeight",
+                "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C12headerHeight12CoreGraphics7CGFloatVvg",
+                "moduleName": "_LBCollectionsCombinerViewXCFramework",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerView(im)setHeaderHeight:",
+                "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C12headerHeight12CoreGraphics7CGFloatVvs",
+                "moduleName": "_LBCollectionsCombinerViewXCFramework",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:37_LBCollectionsCombinerViewXCFramework01_abC0C12headerHeight14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C12headerHeight12CoreGraphics7CGFloatVvM",
+                "moduleName": "_LBCollectionsCombinerViewXCFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headerNibName",
+            "printedName": "headerNibName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerView(py)headerNibName",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C13headerNibNameSSvp",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "IBInspectable",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerView(im)headerNibName",
+                "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C13headerNibNameSSvg",
+                "moduleName": "_LBCollectionsCombinerViewXCFramework",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerView(im)setHeaderNibName:",
+                "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C13headerNibNameSSvs",
+                "moduleName": "_LBCollectionsCombinerViewXCFramework",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:37_LBCollectionsCombinerViewXCFramework01_abC0C13headerNibNameSSvM",
+                "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C13headerNibNameSSvM",
+                "moduleName": "_LBCollectionsCombinerViewXCFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adjustmentBehavior",
+            "printedName": "adjustmentBehavior",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerView(py)adjustmentBehavior",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C18adjustmentBehaviorSbvp",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "IBInspectable",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerView(im)adjustmentBehavior",
+                "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C18adjustmentBehaviorSbvg",
+                "moduleName": "_LBCollectionsCombinerViewXCFramework",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerView(im)setAdjustmentBehavior:",
+                "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C18adjustmentBehaviorSbvs",
+                "moduleName": "_LBCollectionsCombinerViewXCFramework",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:37_LBCollectionsCombinerViewXCFramework01_abC0C18adjustmentBehaviorSbvM",
+                "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C18adjustmentBehaviorSbvM",
+                "moduleName": "_LBCollectionsCombinerViewXCFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isScrollEnable",
+            "printedName": "isScrollEnable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerView(py)isScrollEnable",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C14isScrollEnableSbvp",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "IBInspectable",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerView(im)isScrollEnable",
+                "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C14isScrollEnableSbvg",
+                "moduleName": "_LBCollectionsCombinerViewXCFramework",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerView(im)setIsScrollEnable:",
+                "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C14isScrollEnableSbvs",
+                "moduleName": "_LBCollectionsCombinerViewXCFramework",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:37_LBCollectionsCombinerViewXCFramework01_abC0C14isScrollEnableSbvM",
+                "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C14isScrollEnableSbvM",
+                "moduleName": "_LBCollectionsCombinerViewXCFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "header",
+            "printedName": "header",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerHeaderView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_LBCollectionsCombinerHeaderView",
+                    "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerHeaderView",
+                    "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerHeaderView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:37_LBCollectionsCombinerViewXCFramework01_abC0C6headerAA01_ab6HeaderC0CSgvp",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C6headerAA01_ab6HeaderC0CSgvp",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerHeaderView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_LBCollectionsCombinerHeaderView",
+                        "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerHeaderView",
+                        "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerHeaderView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:37_LBCollectionsCombinerViewXCFramework01_abC0C6headerAA01_ab6HeaderC0CSgvg",
+                "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C6headerAA01_ab6HeaderC0CSgvg",
+                "moduleName": "_LBCollectionsCombinerViewXCFramework",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headerExtension",
+            "printedName": "headerExtension",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerHeaderExtensionView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_LBCollectionsCombinerHeaderExtensionView",
+                    "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerHeaderExtensionView",
+                    "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerHeaderExtensionView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:37_LBCollectionsCombinerViewXCFramework01_abC0C15headerExtensionAA01_ab6HeaderfC0CSgvp",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C15headerExtensionAA01_ab6HeaderfC0CSgvp",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerHeaderExtensionView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_LBCollectionsCombinerHeaderExtensionView",
+                        "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerHeaderExtensionView",
+                        "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerHeaderExtensionView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:37_LBCollectionsCombinerViewXCFramework01_abC0C15headerExtensionAA01_ab6HeaderfC0CSgvg",
+                "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C15headerExtensionAA01_ab6HeaderfC0CSgvg",
+                "moduleName": "_LBCollectionsCombinerViewXCFramework",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "refreshControl",
+            "printedName": "refreshControl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIRefreshControl?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIRefreshControl",
+                    "printedName": "UIKit.UIRefreshControl",
+                    "usr": "c:objc(cs)UIRefreshControl"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:37_LBCollectionsCombinerViewXCFramework01_abC0C14refreshControlSo09UIRefreshF0CSgvp",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C14refreshControlSo09UIRefreshF0CSgvp",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIRefreshControl?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIRefreshControl",
+                        "printedName": "UIKit.UIRefreshControl",
+                        "usr": "c:objc(cs)UIRefreshControl"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:37_LBCollectionsCombinerViewXCFramework01_abC0C14refreshControlSo09UIRefreshF0CSgvg",
+                "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C14refreshControlSo09UIRefreshF0CSgvg",
+                "moduleName": "_LBCollectionsCombinerViewXCFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIRefreshControl?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIRefreshControl",
+                        "printedName": "UIKit.UIRefreshControl",
+                        "usr": "c:objc(cs)UIRefreshControl"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:37_LBCollectionsCombinerViewXCFramework01_abC0C14refreshControlSo09UIRefreshF0CSgvs",
+                "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C14refreshControlSo09UIRefreshF0CSgvs",
+                "moduleName": "_LBCollectionsCombinerViewXCFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:37_LBCollectionsCombinerViewXCFramework01_abC0C14refreshControlSo09UIRefreshF0CSgvM",
+                "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C14refreshControlSo09UIRefreshF0CSgvM",
+                "moduleName": "_LBCollectionsCombinerViewXCFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "_delegate",
+            "printedName": "_delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerViewDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:37_LBCollectionsCombinerViewXCFramework01_abC0C9_delegateAA01_abC8Delegate_pSgvp",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C9_delegateAA01_abC8Delegate_pSgvp",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerViewDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_LBCollectionsCombinerViewDelegate",
+                        "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerViewDelegate",
+                        "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(pl)_LBCollectionsCombinerViewDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:37_LBCollectionsCombinerViewXCFramework01_abC0C9_delegateAA01_abC8Delegate_pSgvg",
+                "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C9_delegateAA01_abC8Delegate_pSgvg",
+                "moduleName": "_LBCollectionsCombinerViewXCFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerViewDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_LBCollectionsCombinerViewDelegate",
+                        "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerViewDelegate",
+                        "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(pl)_LBCollectionsCombinerViewDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:37_LBCollectionsCombinerViewXCFramework01_abC0C9_delegateAA01_abC8Delegate_pSgvs",
+                "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C9_delegateAA01_abC8Delegate_pSgvs",
+                "moduleName": "_LBCollectionsCombinerViewXCFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:37_LBCollectionsCombinerViewXCFramework01_abC0C9_delegateAA01_abC8Delegate_pSgvM",
+                "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C9_delegateAA01_abC8Delegate_pSgvM",
+                "moduleName": "_LBCollectionsCombinerViewXCFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "_dataSource",
+            "printedName": "_dataSource",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerViewDataSource?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:37_LBCollectionsCombinerViewXCFramework01_abC0C11_dataSourceAA01_abc4DataF0_pSgvp",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C11_dataSourceAA01_abc4DataF0_pSgvp",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerViewDataSource?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_LBCollectionsCombinerViewDataSource",
+                        "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerViewDataSource",
+                        "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(pl)_LBCollectionsCombinerViewDataSource"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:37_LBCollectionsCombinerViewXCFramework01_abC0C11_dataSourceAA01_abc4DataF0_pSgvg",
+                "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C11_dataSourceAA01_abc4DataF0_pSgvg",
+                "moduleName": "_LBCollectionsCombinerViewXCFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerViewDataSource?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_LBCollectionsCombinerViewDataSource",
+                        "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerViewDataSource",
+                        "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(pl)_LBCollectionsCombinerViewDataSource"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:37_LBCollectionsCombinerViewXCFramework01_abC0C11_dataSourceAA01_abc4DataF0_pSgvs",
+                "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C11_dataSourceAA01_abc4DataF0_pSgvs",
+                "moduleName": "_LBCollectionsCombinerViewXCFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:37_LBCollectionsCombinerViewXCFramework01_abC0C11_dataSourceAA01_abc4DataF0_pSgvM",
+                "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C11_dataSourceAA01_abc4DataF0_pSgvM",
+                "moduleName": "_LBCollectionsCombinerViewXCFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "willMove",
+            "printedName": "willMove(toWindow:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIWindow?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIWindow",
+                    "printedName": "UIKit.UIWindow",
+                    "usr": "c:objc(cs)UIWindow"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerView(im)willMoveToWindow:",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C8willMove8toWindowySo8UIWindowCSg_tF",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "willMoveToWindow:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addSubview",
+            "printedName": "addSubview(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerView(im)addSubview:",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C10addSubviewyySo6UIViewCF",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "addSubview:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "draw",
+            "printedName": "draw(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerView(im)drawRect:",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C4drawyySo6CGRectVF",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "drawRect:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCurrentIndex",
+            "printedName": "setCurrentIndex(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:37_LBCollectionsCombinerViewXCFramework01_abC0C15setCurrentIndexyySiF",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C15setCurrentIndexyySiF",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_LBCollectionsCombinerView",
+                "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerView",
+                "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerView(im)initWithFrame:",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C5frameACSo6CGRectV_tcfc",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_LBCollectionsCombinerView",
+                    "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerView",
+                    "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerView(im)initWithCoder:",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerView",
+        "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC0C",
+        "moduleName": "_LBCollectionsCombinerViewXCFramework",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "_LBCollectionsCombinerViewDelegate",
+        "printedName": "_LBCollectionsCombinerViewDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "combinerView",
+            "printedName": "combinerView(_:didChangePage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "_LBCollectionsCombinerView",
+                "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerView",
+                "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(pl)_LBCollectionsCombinerViewDelegate(im)combinerView:didChangePage:",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC8DelegateP08combinerC0_13didChangePageyAA01_abC0C_SitF",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : _LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerViewDelegate>",
+            "sugared_genericSig": "<Self where Self : _LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "combinerView",
+            "printedName": "combinerView(_:didLoadHeader:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "_LBCollectionsCombinerView",
+                "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerView",
+                "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "_LBCollectionsCombinerHeaderView",
+                "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerHeaderView",
+                "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerHeaderView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(pl)_LBCollectionsCombinerViewDelegate(im)combinerView:didLoadHeader:",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC8DelegateP08combinerC0_13didLoadHeaderyAA01_abC0C_AA01_abiC0CtF",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : _LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerViewDelegate>",
+            "sugared_genericSig": "<Self where Self : _LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(pl)_LBCollectionsCombinerViewDelegate",
+        "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC8DelegateP",
+        "moduleName": "_LBCollectionsCombinerViewXCFramework",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "_LBCollectionsCombinerViewDataSource",
+        "printedName": "_LBCollectionsCombinerViewDataSource",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "numberOfPages",
+            "printedName": "numberOfPages(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "_LBCollectionsCombinerView",
+                "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerView",
+                "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(pl)_LBCollectionsCombinerViewDataSource(im)numberOfPages:",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC10DataSourceP13numberOfPagesySiAA01_abC0CF",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : _LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerViewDataSource>",
+            "sugared_genericSig": "<Self where Self : _LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerViewDataSource>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "combinerView",
+            "printedName": "combinerView(_:pageForItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "_LBCollectionsCombinerViewXCFramework._LBCombinerCollectionViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_LBCombinerCollectionViewController",
+                    "printedName": "_LBCollectionsCombinerViewXCFramework._LBCombinerCollectionViewController",
+                    "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCombinerCollectionViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "_LBCollectionsCombinerView",
+                "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerView",
+                "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(pl)_LBCollectionsCombinerViewDataSource(im)combinerView:pageForItemAt:",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC10DataSourceP08combinerC0_13pageForItemAtAA021_LBCombinerCollectionC10ControllerCSgAA01_abC0C_10Foundation9IndexPathVtF",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : _LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerViewDataSource>",
+            "sugared_genericSig": "<Self where Self : _LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerViewDataSource>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(pl)_LBCollectionsCombinerViewDataSource",
+        "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_abC10DataSourceP",
+        "moduleName": "_LBCollectionsCombinerViewXCFramework",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "_LBCollectionsCombinerViewXCFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "_LBCollectionsCombinerPagerViewBase",
+        "printedName": "_LBCollectionsCombinerPagerViewBase",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerPagerViewBase(im)viewDidLoad",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_ab5PagerC4BaseC11viewDidLoadyyF",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(transitionStyle:navigationOrientation:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_LBCollectionsCombinerPagerViewBase",
+                "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerPagerViewBase",
+                "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerPagerViewBase"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TransitionStyle",
+                "printedName": "UIKit.UIPageViewController.TransitionStyle",
+                "usr": "c:@E@UIPageViewControllerTransitionStyle"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NavigationOrientation",
+                "printedName": "UIKit.UIPageViewController.NavigationOrientation",
+                "usr": "c:@E@UIPageViewControllerNavigationOrientation"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[UIKit.UIPageViewController.OptionsKey : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[UIKit.UIPageViewController.OptionsKey : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OptionsKey",
+                        "printedName": "UIKit.UIPageViewController.OptionsKey",
+                        "usr": "c:@T@UIPageViewControllerOptionsKey"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerPagerViewBase(im)initWithTransitionStyle:navigationOrientation:options:",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_ab5PagerC4BaseC15transitionStyle21navigationOrientation7optionsACSo06UIPagec20ControllerTransitionH0V_So0lcm10NavigationJ0VSDySo0lcM10OptionsKeyaypGSgtcfc",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithTransitionStyle:navigationOrientation:options:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerPagerViewBase?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_LBCollectionsCombinerPagerViewBase",
+                    "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerPagerViewBase",
+                    "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerPagerViewBase"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerPagerViewBase(im)initWithCoder:",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_ab5PagerC4BaseC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "pageViewController",
+            "printedName": "pageViewController(_:viewControllerBefore:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIPageViewController",
+                "printedName": "UIKit.UIPageViewController",
+                "usr": "c:objc(cs)UIPageViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerPagerViewBase(im)pageViewController:viewControllerBeforeViewController:",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_ab5PagerC4BaseC04pageC10Controller_04viewH6BeforeSo06UIViewH0CSgSo06UIPagecH0C_AGtF",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "objc_name": "pageViewController:viewControllerBeforeViewController:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pageViewController",
+            "printedName": "pageViewController(_:viewControllerAfter:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIPageViewController",
+                "printedName": "UIKit.UIPageViewController",
+                "usr": "c:objc(cs)UIPageViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerPagerViewBase(im)pageViewController:viewControllerAfterViewController:",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_ab5PagerC4BaseC04pageC10Controller_04viewH5AfterSo06UIViewH0CSgSo06UIPagecH0C_AGtF",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "objc_name": "pageViewController:viewControllerAfterViewController:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pageViewController",
+            "printedName": "pageViewController(_:didFinishAnimating:previousViewControllers:transitionCompleted:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIPageViewController",
+                "printedName": "UIKit.UIPageViewController",
+                "usr": "c:objc(cs)UIPageViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIViewController]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerPagerViewBase(im)pageViewController:didFinishAnimating:previousViewControllers:transitionCompleted:",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_ab5PagerC4BaseC04pageC10Controller_18didFinishAnimating08previousC11Controllers19transitionCompletedySo06UIPagecH0C_SbSaySo06UIViewH0CGSbtF",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "objc_name": "pageViewController:didFinishAnimating:previousViewControllers:transitionCompleted:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scrollViewDidScroll",
+            "printedName": "scrollViewDidScroll(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScrollView",
+                "printedName": "UIKit.UIScrollView",
+                "usr": "c:objc(cs)UIScrollView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerPagerViewBase(im)scrollViewDidScroll:",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_ab5PagerC4BaseC06scrollC9DidScrollyySo08UIScrollC0CF",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "objc_name": "scrollViewDidScroll:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerPagerViewBase",
+        "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_ab5PagerC4BaseC",
+        "moduleName": "_LBCollectionsCombinerViewXCFramework",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIPageViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIPageViewController",
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "_LBCollectionsCombinerViewXCFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "_LBCollectionsCombinerViewXCFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "_LBCollectionsCombinerViewXCFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "_LBCollectionsCombinerViewXCFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "_LBCollectionsCombinerViewXCFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "_LBCollectionsCombinerViewXCFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "_LBCollectionsCombinerViewXCFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "_LBCollectionsCombinerViewXCFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "_LBCollectionsCombinerViewXCFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "_LBCollectionsCombinerViewXCFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "_LBCollectionsCombinerViewXCFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "_LBCollectionsCombinerViewXCFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "_LBCollectionsCombinerViewXCFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "_LBCombinerCollectionViewController",
+        "printedName": "_LBCombinerCollectionViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "awakeFromNib",
+            "printedName": "awakeFromNib()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCombinerCollectionViewController(im)awakeFromNib",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework021_LBCombinerCollectionC10ControllerC12awakeFromNibyyF",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "awakeFromNib",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(collectionViewLayout:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_LBCombinerCollectionViewController",
+                "printedName": "_LBCollectionsCombinerViewXCFramework._LBCombinerCollectionViewController",
+                "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCombinerCollectionViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewLayout",
+                "printedName": "UIKit.UICollectionViewLayout",
+                "usr": "c:objc(cs)UICollectionViewLayout"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCombinerCollectionViewController(im)initWithCollectionViewLayout:",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework021_LBCombinerCollectionC10ControllerC010collectionC6LayoutACSo012UICollectioncI0C_tcfc",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCollectionViewLayout:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_LBCombinerCollectionViewController",
+                "printedName": "_LBCollectionsCombinerViewXCFramework._LBCombinerCollectionViewController",
+                "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCombinerCollectionViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCombinerCollectionViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework021_LBCombinerCollectionC10ControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "_LBCollectionsCombinerViewXCFramework._LBCombinerCollectionViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_LBCombinerCollectionViewController",
+                    "printedName": "_LBCollectionsCombinerViewXCFramework._LBCombinerCollectionViewController",
+                    "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCombinerCollectionViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCombinerCollectionViewController(im)initWithCoder:",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework021_LBCombinerCollectionC10ControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCombinerCollectionViewController",
+        "mangledName": "$s37_LBCollectionsCombinerViewXCFramework021_LBCombinerCollectionC10ControllerC",
+        "moduleName": "_LBCollectionsCombinerViewXCFramework",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UICollectionViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UICollectionViewController",
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "_LBCollectionsCombinerViewXCFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "_LBCollectionsCombinerHeaderView",
+        "printedName": "_LBCollectionsCombinerHeaderView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "awakeFromNib",
+            "printedName": "awakeFromNib()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerHeaderView(im)awakeFromNib",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_ab6HeaderC0C12awakeFromNibyyF",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "awakeFromNib",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "nibView",
+            "printedName": "nibView(nibName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:37_LBCollectionsCombinerViewXCFramework01_ab6HeaderC0C03nibC00F4NameSo6UIViewCSgSS_tFZ",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_ab6HeaderC0C03nibC00F4NameSo6UIViewCSgSS_tFZ",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_LBCollectionsCombinerHeaderView",
+                "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerHeaderView",
+                "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerHeaderView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerHeaderView(im)initWithFrame:",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_ab6HeaderC0C5frameACSo6CGRectV_tcfc",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerHeaderView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_LBCollectionsCombinerHeaderView",
+                    "printedName": "_LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerHeaderView",
+                    "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerHeaderView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerHeaderView(im)initWithCoder:",
+            "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_ab6HeaderC0C5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "_LBCollectionsCombinerViewXCFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@_LBCollectionsCombinerViewXCFramework@objc(cs)_LBCollectionsCombinerHeaderView",
+        "mangledName": "$s37_LBCollectionsCombinerViewXCFramework01_ab6HeaderC0C",
+        "moduleName": "_LBCollectionsCombinerViewXCFramework",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "_LBCollectionsCombinerViewXCFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "_LBCollectionsCombinerViewXCFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "_LBCollectionsCombinerViewXCFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/HeaderExtension\/View\/_LBCollectionsCombinerHeaderExtensionView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 548,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/View\/_LBCollectionsCombinerView.swift",
+      "kind": "StringLiteral",
+      "offset": 516,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/View\/_LBCollectionsCombinerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 652,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/View\/_LBCollectionsCombinerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 796,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Pager\/Base\/_LBCollectionsCombinerPagerViewBase.swift",
+      "kind": "BooleanLiteral",
+      "offset": 535,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Pager\/Base\/_LBCollectionsCombinerPagerViewBase.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1088,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Pager\/Base\/_LBCollectionsCombinerPagerViewBase.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1158,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Pager\/Base\/_LBCollectionsCombinerPagerViewBase.swift",
+      "kind": "StringLiteral",
+      "offset": 1276,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Pager\/Base\/_LBCollectionsCombinerPagerViewBase.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1557,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Pager\/Base\/_LBCollectionsCombinerPagerViewBase.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1847,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Pager\/Base\/_LBCollectionsCombinerPagerViewBase.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2404,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Pager\/Base\/_LBCollectionsCombinerPagerViewBase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2439,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Pager\/Base\/_LBCollectionsCombinerPagerViewBase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2444,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Pager\/Base\/_LBCollectionsCombinerPagerViewBase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2484,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Pager\/Base\/_LBCollectionsCombinerPagerViewBase.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2669,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Pager\/Base\/_LBCollectionsCombinerPagerViewBase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2700,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Pager\/Base\/_LBCollectionsCombinerPagerViewBase.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3091,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Pager\/Base\/_LBCollectionsCombinerPagerViewBase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3126,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Pager\/Base\/_LBCollectionsCombinerPagerViewBase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3143,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Pager\/Base\/_LBCollectionsCombinerPagerViewBase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3183,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Pager\/Base\/_LBCollectionsCombinerPagerViewBase.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3368,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Pager\/Base\/_LBCollectionsCombinerPagerViewBase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3411,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Pager\/Base\/_LBCollectionsCombinerPagerViewBase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3985,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Pager\/Base\/_LBCollectionsCombinerPagerViewBase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4951,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Pager\/Base\/_LBCollectionsCombinerPagerViewBase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4982,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Pager\/Base\/_LBCollectionsCombinerPagerViewBase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5379,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Pager\/Base\/_LBCollectionsCombinerPagerViewBase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5410,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Pager\/_LBCollectionsCombinerPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1051,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Pager\/_LBCollectionsCombinerPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1811,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Pager\/_LBCollectionsCombinerPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1905,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Pager\/_LBCollectionsCombinerPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1948,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Pager\/_LBCollectionsCombinerPagerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1992,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Pager\/_LBCollectionsCombinerPagerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2169,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Pager\/_LBCollectionsCombinerPagerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2185,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/IO\/Extentions\/UIView+Extentions.swift",
+      "kind": "Array",
+      "offset": 1450,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/IO\/Extentions\/UIView+Extentions.swift",
+      "kind": "StringLiteral",
+      "offset": 2165,
+      "length": 46,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/IO\/Extentions\/UIView+Extentions.swift",
+      "kind": "StringLiteral",
+      "offset": 2210,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/IO\/Extentions\/UIView+Extentions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2465,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/IO\/Extentions\/UIView+Extentions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2556,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/IO\/Extentions\/UIView+Extentions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2597,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/IO\/Extentions\/UIView+Extentions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2639,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/IO\/Extentions\/UIView+Extentions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2682,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/IO\/Extentions\/UIView+Extentions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3187,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/IO\/Extentions\/UIView+Extentions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3312,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/IO\/Extentions\/UIView+Extentions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3446,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/IO\/Extentions\/UIView+Extentions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3581,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/IO\/Extentions\/UIView+Extentions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3713,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/IO\/Extentions\/UIView+Extentions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3846,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/IO\/Extentions\/UIView+Extentions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3980,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/IO\/Extentions\/UIView+Extentions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4115,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/IO\/Extentions\/UIView+Extentions.swift",
+      "kind": "FloatLiteral",
+      "offset": 4225,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/IO\/Extentions\/UIView+Extentions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4243,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/IO\/Extentions\/UIView+Extentions.swift",
+      "kind": "FloatLiteral",
+      "offset": 4356,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/IO\/Extentions\/UIView+Extentions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4373,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/IO\/Extentions\/UIView+Extentions.swift",
+      "kind": "FloatLiteral",
+      "offset": 4507,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/IO\/Extentions\/UIView+Extentions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4525,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/IO\/Extentions\/UIView+Extentions.swift",
+      "kind": "FloatLiteral",
+      "offset": 4664,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/IO\/Extentions\/UIView+Extentions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4680,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Header\/Container\/_LBCollectionsCombinerHeaderContainerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1107,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Header\/Container\/_LBCollectionsCombinerHeaderContainerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1199,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Header\/Container\/_LBCollectionsCombinerHeaderContainerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1243,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Header\/Container\/_LBCollectionsCombinerHeaderContainerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1288,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Header\/Container\/_LBCollectionsCombinerHeaderContainerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1334,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Header\/Container\/_LBCollectionsCombinerHeaderContainerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1796,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Header\/Container\/_LBCollectionsCombinerHeaderContainerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1887,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Header\/Container\/_LBCollectionsCombinerHeaderContainerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1928,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Header\/Container\/_LBCollectionsCombinerHeaderContainerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1970,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/HeaderExtension\/Container\/_LBCollectionsCombinerHeaderExtensionContainerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1182,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/HeaderExtension\/Container\/_LBCollectionsCombinerHeaderExtensionContainerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1274,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/HeaderExtension\/Container\/_LBCollectionsCombinerHeaderExtensionContainerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1318,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/HeaderExtension\/Container\/_LBCollectionsCombinerHeaderExtensionContainerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1363,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/HeaderExtension\/Container\/_LBCollectionsCombinerHeaderExtensionContainerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1409,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/HeaderExtension\/Container\/_LBCollectionsCombinerHeaderExtensionContainerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1925,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/HeaderExtension\/Container\/_LBCollectionsCombinerHeaderExtensionContainerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2019,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/HeaderExtension\/Container\/_LBCollectionsCombinerHeaderExtensionContainerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2062,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/HeaderExtension\/Container\/_LBCollectionsCombinerHeaderExtensionContainerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2233,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/HeaderExtension\/Container\/_LBCollectionsCombinerHeaderExtensionContainerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2247,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/IO\/Extentions\/Bundle+Extentions.swift",
+      "kind": "StringLiteral",
+      "offset": 405,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/IO\/Extentions\/Bundle+Extentions.swift",
+      "kind": "StringLiteral",
+      "offset": 505,
+      "length": 6,
+      "value": "\".app\""
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/IO\/Extentions\/Bundle+Extentions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 572,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/IO\/Extentions\/Bundle+Extentions.swift",
+      "kind": "StringLiteral",
+      "offset": 647,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/ViewController\/_LBCollectionsCombinerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 616,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/ViewController\/_LBCollectionsCombinerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 740,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/ViewController\/_LBCollectionsCombinerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 872,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/ViewController\/_LBCollectionsCombinerViewController.swift",
+      "kind": "Dictionary",
+      "offset": 1488,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Scrolls\/_LBCollectionsCombinerScrollsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 839,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Scrolls\/_LBCollectionsCombinerScrollsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 930,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Scrolls\/_LBCollectionsCombinerScrollsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 971,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Scrolls\/_LBCollectionsCombinerScrollsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1013,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Scrolls\/Container\/_LBCollectionsCombinerContainerScrollView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 612,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Scrolls\/Container\/_LBCollectionsCombinerContainerScrollView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 722,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Scrolls\/Container\/_LBCollectionsCombinerContainerScrollView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 766,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Scrolls\/Container\/_LBCollectionsCombinerContainerScrollView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 811,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Scrolls\/Container\/_LBCollectionsCombinerContainerScrollView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 857,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Scrolls\/Container\/_LBCollectionsCombinerContainerScrollView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1262,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Scrolls\/Container\/_LBCollectionsCombinerContainerScrollView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1312,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Header\/View\/_LBCollectionsCombinerHeaderView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 422,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/IO\/Extentions\/UICollectionView+Extentions.swift",
+      "kind": "StringLiteral",
+      "offset": 444,
+      "length": 30,
+      "value": "\"_UIScrollViewScrollIndicator\""
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/IO\/Extentions\/UICollectionView+Extentions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 516,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCollectionsCombinerView\/XCFrameworks\/_LBCollectionsCombinerViewXCFramework\/Scrolls\/Overlay\/_LBCollectionsCombinerOverlayScrollView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 693,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

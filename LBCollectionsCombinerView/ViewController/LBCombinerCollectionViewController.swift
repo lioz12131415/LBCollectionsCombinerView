@@ -6,3 +6,8 @@
 //
 
 import Foundation
+import _LBCollectionsCombinerViewXCFramework
+
+open class LBCombinerCollectionViewController: _LBCombinerCollectionViewController {
+    
+}

@@ -1,0 +1,6 @@
+framework module Pods_LBCollectionsCombinerViewExample {
+  umbrella header "Pods-LBCollectionsCombinerViewExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

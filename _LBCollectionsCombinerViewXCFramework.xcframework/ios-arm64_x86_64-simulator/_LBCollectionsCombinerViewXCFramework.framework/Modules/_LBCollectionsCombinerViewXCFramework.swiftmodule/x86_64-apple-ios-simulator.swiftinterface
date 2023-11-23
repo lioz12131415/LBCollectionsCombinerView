@@ -1,0 +1,100 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name _LBCollectionsCombinerViewXCFramework
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class _LBCollectionsCombinerHeaderExtensionView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func awakeFromNib()
+  @_Concurrency.MainActor(unsafe) open class func nibView(nibName: Swift.String) -> UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class _LBCollectionsCombinerView : UIKit.UIView {
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var minusScroll: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var headerHeight: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var headerNibName: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var adjustmentBehavior: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var isScrollEnable: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) open var header: _LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerHeaderView? {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) open var headerExtension: _LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerHeaderExtensionView? {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) open var refreshControl: UIKit.UIRefreshControl? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) weak open var _delegate: (any _LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerViewDelegate)? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) weak open var _dataSource: (any _LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerViewDataSource)? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func willMove(toWindow newWindow: UIKit.UIWindow?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func addSubview(_ view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func draw(_ rect: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) open func setCurrentIndex(_ index: Swift.Int)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc public protocol _LBCollectionsCombinerViewDelegate {
+  @objc optional func combinerView(_ combinerView: _LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerView, didChangePage index: Swift.Int)
+  @objc optional func combinerView(_ combinerView: _LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerView, didLoadHeader view: _LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerHeaderView)
+}
+@objc public protocol _LBCollectionsCombinerViewDataSource {
+  @objc func numberOfPages(_ combinerView: _LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerView) -> Swift.Int
+  @objc func combinerView(_ combinerView: _LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerView, pageForItemAt indexPath: Foundation.IndexPath) -> _LBCollectionsCombinerViewXCFramework._LBCombinerCollectionViewController?
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class _LBCollectionsCombinerPagerViewBase : UIKit.UIPageViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(transitionStyle style: UIKit.UIPageViewController.TransitionStyle, navigationOrientation: UIKit.UIPageViewController.NavigationOrientation, options: [UIKit.UIPageViewController.OptionsKey : Any]? = nil)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
+extension _LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerPagerViewBase : UIKit.UIPageViewControllerDelegate, UIKit.UIPageViewControllerDataSource {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func pageViewController(_ pageViewController: UIKit.UIPageViewController, viewControllerBefore viewController: UIKit.UIViewController) -> UIKit.UIViewController?
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func pageViewController(_ pageViewController: UIKit.UIPageViewController, viewControllerAfter viewController: UIKit.UIViewController) -> UIKit.UIViewController?
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func pageViewController(_ pageViewController: UIKit.UIPageViewController, didFinishAnimating finished: Swift.Bool, previousViewControllers: [UIKit.UIViewController], transitionCompleted completed: Swift.Bool)
+}
+extension _LBCollectionsCombinerViewXCFramework._LBCollectionsCombinerPagerViewBase : UIKit.UIScrollViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class _LBCombinerCollectionViewController : UIKit.UICollectionViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func awakeFromNib()
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(collectionViewLayout layout: UIKit.UICollectionViewLayout)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class _LBCollectionsCombinerHeaderView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func awakeFromNib()
+  @_Concurrency.MainActor(unsafe) open class func nibView(nibName: Swift.String) -> UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
