@@ -23,8 +23,8 @@ This library provides a custom option to combain UICollectionViewControllers to 
 
 ## Inspectable's
 
-- headerHeight - A CGFloat Value That Determines The Header Height.
 - minusScroll - A CGFloat Value That Determines The Point To Stop The Header Scroll And Make It Sticky.
+- headerHeight - A CGFloat Value That Determines The Header Height.
 - headerNibName - A String Value That Loaded The Header From The Nib File.
 - isScrollEnable - A Boolean Value That Determines If The Pager Scrolling Is Enabled.
 - adjustmentBehavior - A Boolean Value That Determines If Scrolls Adjustment Behavior Is Enabled.
