@@ -106,5 +106,5 @@ This library provides a custom option to combain UICollectionViewControllers to 
     /*
      * Set Example 
      * */
-    combinerView.setCurrentIndex(${ SOME INDEX })
+    combinerView.setCurrentIndex(index)
 ```
