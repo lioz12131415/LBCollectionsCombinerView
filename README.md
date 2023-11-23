@@ -11,13 +11,21 @@ This library provides a custom option to combain UICollectionViewControllers to 
 
 |Storyboard Inspectable's:|
 |:---|
-|<p> <img src="https://raw.githubusercontent.com/lioz12131415/LBCollectionsCombinerView/main/Images/Inspectable.png" width="400" /> </p>|
+|<p> <img src="https://raw.githubusercontent.com/lioz12131415/LBCollectionsCombinerView/main/Images/inspectable.png" width="400" /> </p>|
+
+## Example Project 
+
+<p float="center">
+<img src="https://raw.githubusercontent.com/lioz12131415/LBCollectionsCombinerView/main/Gifs/screen_snapshot.gif" width="210" /> 
+<img src="https://raw.githubusercontent.com/lioz12131415/LBCollectionsCombinerView/main/Images/screen_snapshot.jpg" width="210" />
+</p>
+
 
 ## Inspectable's
 
-- headerHeight       - Set The Header Height.
-- minusScroll        - Stop The Header Scroll And Make It Sticky.
-- headerNibName      - Load The Header From The Nib File With The Nib Name.
-- isScrollEnable     - A Boolean Value That Determines If The Pager Scrolling Is Enabled.
+- headerHeight - Set The Header Height.
+- minusScroll - Stop The Header Scroll And Make It Sticky.
+- headerNibName - Load The Header From The Nib File With The Nib Name.
+- isScrollEnable - A Boolean Value That Determines If The Pager Scrolling Is Enabled.
 - adjustmentBehavior - A Boolean Value That Determines If Scrolls Adjustment Behavior Is Enabled.
 
