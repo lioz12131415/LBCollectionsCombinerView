@@ -118,8 +118,8 @@ This library provides a custom option to combain UICollectionViewControllers to 
 - Header View Class - The Header View Class Most Be Of Type `LBCollectionsCombinerHeaderView`.
 
 <p float="center">
-<img src="https://raw.githubusercontent.com/lioz12131415/LBExpandedCollectionView/main/Images/header.png" width="100" /> 
-<img src="https://raw.githubusercontent.com/lioz12131415/LBExpandedCollectionView/main/Images/header_files.png" width="100" /> 
-<img src="https://raw.githubusercontent.com/lioz12131415/LBExpandedCollectionView/main/Images/header_view.png" width="100" /> 
+<img src="https://raw.githubusercontent.com/lioz12131415/LBCollectionsCombinerView/main/Images/header.png" width="210" /> 
+<img src="https://raw.githubusercontent.com/lioz12131415/LBCollectionsCombinerView/main/Images/header_files.png" width="210" /> 
+<img src="https://raw.githubusercontent.com/lioz12131415/LBCollectionsCombinerView/main/Images/header_view.png" width="210" /> 
 </p>
 
