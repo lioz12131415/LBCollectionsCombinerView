@@ -93,3 +93,13 @@ This library provides a custom option to combain UICollectionViewControllers to 
      * */
     combinerView.refreshControl = .refreshControl { CREATE YOUR Refresh Control VIEW }
 ```
+
+## Public Methods - LBCollectionsCombinerView
+### The Combiner View Public Methods.
+
+```swift  
+    /*
+     * Change The Combiner View Current Page To Selected Index
+     * */
+    open func setCurrentIndex(_ index: Int)
+```
