@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "LBCollectionsCombinerView"
-    s.version      = "0.0.1"
+    s.version      = "0.0.2"
     s.summary      = "LBCollectionsCombinerView: Lioz Balki Animate Framework"
     
     s.description  = <<-DESC
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
                    DESC
     
     s.homepage  = "https://github.com/lioz12131415/LBCollectionsCombinerView.git"
-    s.readme    = "https://github.com/lioz12131415/LBCollectionsCombinerView/main/README.md"
+    s.readme    = "https://github.com/lioz12131415/LBCollectionsCombinerView/blob/main/README.md"
     
     s.license = {
         :type => "MIT", :file => "LICENSE"
