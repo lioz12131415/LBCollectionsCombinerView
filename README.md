@@ -184,3 +184,31 @@ This library provides a custom option to combain UICollectionViewControllers to 
 +-----------------+
 
 ```
+
+<br>
+
+# Install #
+The recommended approach for installing LBCollectionsCombinerView is the CocoaPods package manager.
+
+Install CocoaPods if not already available:
+```
+$ sudo gem install cocoapods
+```
+
+Edit your Podfile and add LBCollectionsCombinerView:
+```
+platform :ios, '14.0'
+use_frameworks!
+
+target 'MyApp' do
+  pod 'LBCollectionsCombinerView'
+end
+```
+
+Install into your project:
+```
+$ pod install
+```
+
+# Requirements #
+LBCollectionsCombinerView requires at least iOS 14 or above.
