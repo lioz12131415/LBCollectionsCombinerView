@@ -81,7 +81,6 @@ extension LBCollectionsCombinerView: _LBCollectionsCombinerViewDataSource {
 
 @objc public protocol LBCollectionsCombinerViewDelegate {
     /* * * */
-    /* * * */
     @objc optional func combinerView(_ combinerView: LBCollectionsCombinerView, didChangePage index: Int)
     /* * * */
     @objc optional func combinerView(_ combinerView: LBCollectionsCombinerView,

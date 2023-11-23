@@ -29,3 +29,50 @@ This library provides a custom option to combain UICollectionViewControllers to 
 - isScrollEnable - A Boolean Value That Determines If The Pager Scrolling Is Enabled.
 - adjustmentBehavior - A Boolean Value That Determines If Scrolls Adjustment Behavior Is Enabled.
 
+
+
+## Delegate - LBCollectionsCombinerView
+### The Combiner View Delegate Methods.
+
+```swift 
+@objc public protocol LBCollectionsCombinerViewDelegate {
+
+    /*
+     * Did Change The Combiner View Current Page
+     * */
+     optional func combinerView(_ combinerView: LBCollectionsCombinerView, didChangePage index: Int)
+     
+    /*
+     * Did Load The Combiner View Header
+     * */
+     optional func combinerView(_ combinerView: LBCollectionsCombinerView, didLoadHeader view: LBCollectionsCombinerHeaderView)
+}
+```
+
+
+## Public Variables - LBCollectionsCombinerView
+### The Combiner View Public Variables.
+
+```swift  
+    /*
+     * The Combiner View Loaded Hedaer View From The Nib File
+     * */
+    open var header: _LBCollectionsCombinerHeaderView?
+    
+    /*
+     * Example 
+     * */
+    internal var header: HeaderView? {
+        return combinerView.header as? ${ YOUT HEADER TYPE }
+    }
+    
+    /*
+     * The Combiner View Refresh Control
+     * */
+    open var refreshControl: UIRefreshControl? -> { GET & SET }
+    
+    /*
+     * Example 
+     * */
+    combinerView.refreshControl = .refreshControl { CREATE YOUR Refresh Control VIEW }
+```
